@@ -11,6 +11,10 @@ app.get('/login', function (req,res) {
   res.send('loginPage');
 });
 
+app.post('/tmp', function(req, res) {
+  res.send('Hello world');
+});
+
 //회원가입 페이지
 app.get('/signId', function (req, res) {
   res.send('signIdPage');
